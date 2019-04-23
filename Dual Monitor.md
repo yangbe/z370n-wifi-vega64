@@ -1,0 +1,127 @@
+# z370n-wifi 核显接口
+
+https://www.tonymacx86.com/threads/guide-general-framebuffer-patching-guide-hdmi-black-screen-problem.269149/
+
+Index 0, BusID 0x00, Type LVDS
+Index 1, BusID 0x01, Type HDMI
+Index 2, BusID 0x06, Type HDMI
+Index 3, BusID 0x05, Type DP
+PortCount = 4
+All 5 of the above parameters are specified by the XML code. You do not have to set PortCount yourself -- the code below will do it for you. Both HDMI ports and DP port is fully functional. LVDS is just a placeholder; ignore it.
+
+Hackintosh
+            <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+            <dict>
+                <key>AAPL,ig-platform-id</key>
+                <data>
+                BwCbPg==
+                </data>
+                <key>device-id</key>
+                <data>
+                mz4AAA==
+                </data>
+                <key>enable-hdmi20</key>
+                <data>
+                AQAAAA==
+                </data>
+                <key>framebuffer-con0-busid</key>
+                <data>
+                AAAAAA==
+                </data>
+                <key>framebuffer-con0-enable</key>
+                <data>
+                AQAAAA==
+                </data>
+                <key>framebuffer-con0-flags</key>
+                <data>
+                IAAAAA==
+                </data>
+                <key>framebuffer-con0-index</key>
+                <data>
+                AAAAAA==
+                </data>
+                <key>framebuffer-con0-pipe</key>
+                <data>
+                AAAAAA==
+                </data>
+                <key>framebuffer-con0-type</key>
+                <data>
+                AgAAAA==
+                </data>
+                <key>framebuffer-con1-busid</key>
+                <data>
+                BQAAAA==
+                </data>
+                <key>framebuffer-con1-enable</key>
+                <data>
+                AQAAAA==
+                </data>
+                <key>framebuffer-con1-index</key>
+                <data>
+                AQAAAA==
+                </data>
+                <key>framebuffer-con1-pipe</key>
+                <data>
+                EgAAAA==
+                </data>
+                <key>framebuffer-con1-type</key>
+                <data>
+                AAgAAA==
+                </data>
+                <key>framebuffer-con2-busid</key>
+                <data>
+                BAAAAA==
+                </data>
+                <key>framebuffer-con2-enable</key>
+                <data>
+                AQAAAA==
+                </data>
+                <key>framebuffer-con2-index</key>
+                <data>
+                AgAAAA==
+                </data>
+                <key>framebuffer-con2-pipe</key>
+                <data>
+                EgAAAA==
+                </data>
+                <key>framebuffer-con2-type</key>
+                <data>
+                AAgAAA==
+                </data>
+                <key>framebuffer-con3-busid</key>
+                <data>
+                BgAAAA==
+                </data>
+                <key>framebuffer-con3-enable</key>
+                <data>
+                AQAAAA==
+                </data>
+                <key>framebuffer-con3-flags</key>
+                <data>
+                xwMAAA==
+                </data>
+                <key>framebuffer-con3-index</key>
+                <data>
+                AwAAAA==
+                </data>
+                <key>framebuffer-con3-pipe</key>
+                <data>
+                EgAAAA==
+                </data>
+                <key>framebuffer-con3-type</key>
+                <data>
+                AAQAAA==
+                </data>
+                <key>framebuffer-patch-enable</key>
+                <data>
+                AQAAAA==
+                </data>
+                <key>framebuffer-portcount</key>
+                <data>
+                BAAAAA==
+                </data>
+                <key>framebuffer-unifiedmem</key>
+                <data>
+                AAAAgA==
+                </data>
+            </dict>
