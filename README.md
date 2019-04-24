@@ -1,5 +1,6 @@
 # z370n-wifi-vega64
 
+
 # Bios设置
 我的Bios升到F10，与之前用的F5基本一样，但是不建议升到F11，显卡的设置会发生改变，核显和独显都会有问题。下面的Bios设置，除了USB的要注意下，其它的并没有多大影响。
 
@@ -80,3 +81,13 @@
 [Luxmark](https://user-images.githubusercontent.com/9880101/56673621-2c69f500-66eb-11e9-8387-d234d73bec1d.png)
 [OpenCL](https://user-images.githubusercontent.com/9880101/56673816-91254f80-66eb-11e9-8613-a1f18767d557.png)
 
+
+# USB
+有时间再补充，方法有3:
+
+1.SSDT
+2.Hackintool生成USBpower.kext
+3.解除15端口限制
+
+---
+Github仓库里的Clover并不是最新的，因为显示器买掉了（没钱再买新的了233333333），最新配置的取不出来，但方法可以直接套用
