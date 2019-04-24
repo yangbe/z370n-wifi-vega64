@@ -6,7 +6,7 @@
 
 >1. Save & Exit → Load Optimized Defaults
 >
-> ~~2. M.I.T. → Advanced Memory Settings Extreme Memory Profile(X.M.P.) : Profile1--~~
+> ~~2.M.I.T. → Advanced Memory Settings Extreme Memory Profile(X.M.P.) : Profile1--~~
 > ```此项用来开启内存XMP超频，非必要，而且会导致睡眠后USB的U盘会自动退出，关闭即可，在**Config → Boot → XMPDetection=Yes**同样可以开启内存超频```
 >
 >3. BIOS → Fast Boot : Disabled
@@ -44,6 +44,7 @@
 # 使用Vega64
 先在Bios按如下设置
 >1.Peripherals → Initial Display Output : PCIE
+>2.Chipset → Integrated Graphics : Disabled(Disabled后，只使用独显)
 
 我用的是XFX Vega64（公版），风冷的Vega64基本上都有风扇暴走和温度的问题，降压调频调Powertable会解决问题，但是LED灯的问题仍然没有解决
 
