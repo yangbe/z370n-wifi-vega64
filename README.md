@@ -6,8 +6,7 @@
 
 >1. Save & Exit → Load Optimized Defaults
 >
-> ~~2.M.I.T. → Advanced Memory Settings Extreme Memory Profile(X.M.P.) : Profile1--~~
->
+> ~~2.M.I.T. → Advanced Memory Settings Extreme Memory Profile(X.M.P.) : Profile1--~~ <br />
 >```此项用来开启内存XMP超频，非必要，而且会导致睡眠后USB的U盘会自动退出，关闭即可，在**Config → Boot → XMPDetection=Yes**同样可以开启内存超频```
 >
 >3. BIOS → Fast Boot : Disabled
