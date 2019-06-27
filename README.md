@@ -38,7 +38,8 @@
 >
 >3.Chipset → DVMT Pre-Allocated :128M
 
-解决UHD630核显双屏显示问题,(有时间再补充)
+解决UHD630核显双屏显示问题
+在**config → Devices → Properties** 已添加了相关的补丁
 参考：https://www.tonymacx86.com/threads/guide-general-framebuffer-patching-guide-hdmi-black-screen-problem.269149/
 
 # 使用Vega64
@@ -74,8 +75,9 @@
 >/CLOVER/kexts/Other/**Vega64.kext**, 是我自己调试过的kext补丁，直接放在这个文件夹即可
 
 >**B.在config → Devices → Properties** 
+具体请看文件设置的参数（现在用的是这种方法）
 >添加独显的识别地址，手动添加相关参数.
->也可以使用**VGTabMerge**自动合并到config中。（有时间再补充）
+>也可以使用**VGTabMerge**自动合并到config中。
 
 方法B，目前使用没什么问题，具体性能跟方法A一毛一样
 
@@ -87,9 +89,6 @@
 # USB
 有时间再补充，方法有3:
 
-1.SSDT
+1.SSDT（ACPI里面有设置好的文件）
 2.Hackintool生成USBpower.kext
-3.解除15端口限制
-
----
-Github仓库里的Clover并不是最新的，因为显示器买掉了（没钱再买新的了233333333），最新配置的取不出来，但方法可以直接套用
+3.解除15端口限制（config文件有设置好的，支持到 10.4.2）
