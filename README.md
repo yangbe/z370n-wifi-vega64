@@ -46,7 +46,7 @@
 先在Bios按如下设置
 >1.Peripherals → Initial Display Output : PCIE
 >
->2.Chipset → Integrated Graphics : Disabled(Disabled后，只使用独显，有独显的话，建议只使用独显，避免产生其它问题)
+>2.Chipset → Integrated Graphics : Disabled(Disabled后只能使用独显。不建议同时开启核显，避免产生其它问题)
 
 我用的是XFX Vega64（公版），风冷的Vega64基本上都有风扇暴走和温度的问题，降压调频调Powertable会解决问题，但是LED灯的问题仍然没有解决
 
@@ -94,8 +94,11 @@
 
 
 # USB
+
 有时间再补充，方法有3:
 
 1.SSDT（单独放在EFI/USB-SSDT补丁, 实际使用是要放在Clover/ACPI/patched ，不建议跟**方法3**一起用）
+
 2.Hackintool生成USBpower.kext
+
 3.解除15端口限制（config文件有设置好的，支持到 10.4.5）
