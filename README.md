@@ -97,8 +97,33 @@
 
 有时间再补充，方法有3:
 
-1.SSDT（单独放在EFI/USB-SSDT补丁, 实际使用是要放在Clover/ACPI/patched ，不建议跟**方法3**一起用）
+1.解除15端口限制（config文件有设置好的，支持到 10.4.5）
 
 2.Hackintool生成USBpower.kext
 
-3.解除15端口限制（config文件有设置好的，支持到 10.4.5）
+3.SSDT（单独放在EFI/USB-SSDT补丁, 实际使用是要放在Clover/ACPI/patched ，不建议跟**方法1**一起用）
+
+SSDT的定制参考以下的图表，不要超过15个端口即可
+
+|端口编号|Buffer编号|主板位置|USB协议|
+|:------|:----|:----|:----:|
+|HS01|0x01|P1|USB2|
+|HS02|0x02|P2|USB2|
+|HS07|0x07|P3|USB2|
+|HS08|0x08|P4|USB2|
+|HS05|0x05|P5|USB2|
+|HS06|0x06|P6|USB2|
+|HS03|0x03|P7|USB2|
+|HS04|0x04|P8|USB2|
+|HS09|0x09|TypeC-SW|--|
+|HS10|0x0A|蓝牙|USB2|
+|SS01|0x11|P1|USB3|
+|SS02|0x12|P2|USB3|
+|SS07|0x17|P3|USB3|
+|SS08|0x18|P4|USB3|
+|SS05|0x15|P5|USB3|
+|SS06|0x16|P6|USB3|
+|SS03|0x13|P7|USB3|
+|SS04|0x14|P8|USB3|
+|SS01|0x11|P1|USB3|
+|SS02|0x12|P2|USB3|
