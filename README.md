@@ -2,7 +2,7 @@
 
 
 # Bios设置
-我的Bios升到F10，与之前用的F5基本一样，但是不建议升到F12。下面的Bios设置，除了USB的要注意下，其它的并没有多大影响。
+我的Bios升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基本一样，还是不建议升到F12。下面的Bios设置，除了USB的要注意下，其它的并没有多大影响。
 
 关于Bios升级到F12，请阅读[解锁CFG Lock](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/post-1934546)。或者[阅读有关CFG Lock更详细的解锁方法](http://www.misonsky.cn/115.html)。
 
