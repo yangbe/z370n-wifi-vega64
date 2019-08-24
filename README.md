@@ -2,7 +2,11 @@
 
 
 # Bios设置
-我的Bios升到F10，与之前用的F5基本一样，但是不建议升到F11，显卡的设置会发生改变，核显和独显都会有问题。下面的Bios设置，除了USB的要注意下，其它的并没有多大影响。
+我的Bios升到F10，与之前用的F5基本一样，但是不建议升到F12。下面的Bios设置，除了USB的要注意下，其它的并没有多大影响。
+
+关于Bios升级到F12，请阅读[解锁CFG Lock](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/post-1934546)。或者[阅读有关CFG Lock更详细的解锁方法](http://www.misonsky.cn/115.html)。
+
+
 
 >1. Save & Exit → Load Optimized Defaults
 >
@@ -49,6 +53,8 @@
 >2.Chipset → Integrated Graphics : Disabled(Disabled后只能使用独显。不建议同时开启核显，避免产生其它问题)
 
 我用的是XFX Vega64（公版），风冷的Vega64基本上都有风扇暴走和温度的问题，降压调频调Powertable会解决问题，但是LED灯的问题仍然没有解决
+
+## 4K屏幕下开机苹果Logo扁平问题，请阅读[更新显卡GOP](https://www.amder.club/thread-962-1-1.html)，或者联系我提供已修改的GOP文件
 
 ## Vega64参数调整
 
