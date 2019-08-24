@@ -150,7 +150,7 @@
 					<key>Comment</key>
 					<string>change PEGP to GFX0</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					UEVHUA==
@@ -252,7 +252,7 @@
 		<key>Timeout</key>
 		<integer>0</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<integer>1</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -328,7 +328,7 @@
 				</data>
 				<key>device-id</key>
 				<data>
-				mz4AAA==
+				kj4AAA==
 				</data>
 				<key>enable-hdmi20</key>
 				<data>
@@ -336,7 +336,7 @@
 				</data>
 				<key>framebuffer-con0-busid</key>
 				<data>
-				AAAAAA==
+				BQAAAA==
 				</data>
 				<key>framebuffer-con0-enable</key>
 				<data>
@@ -344,35 +344,39 @@
 				</data>
 				<key>framebuffer-con0-flags</key>
 				<data>
-				IAAAAA==
+				xwMAAA==
 				</data>
 				<key>framebuffer-con0-index</key>
 				<data>
-				AAAAAA==
+				AQAAAA==
 				</data>
 				<key>framebuffer-con0-pipe</key>
 				<data>
-				AAAAAA==
+				CQAAAA==
 				</data>
 				<key>framebuffer-con0-type</key>
 				<data>
-				AgAAAA==
+				AAgAAA==
 				</data>
 				<key>framebuffer-con1-busid</key>
 				<data>
-				BQAAAA==
+				BAAAAA==
 				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-con1-flags</key>
+				<data>
+				xwMAAA==
+				</data>
 				<key>framebuffer-con1-index</key>
 				<data>
-				AQAAAA==
+				AgAAAA==
 				</data>
 				<key>framebuffer-con1-pipe</key>
 				<data>
-				EgAAAA==
+				CgAAAA==
 				</data>
 				<key>framebuffer-con1-type</key>
 				<data>
@@ -380,27 +384,31 @@
 				</data>
 				<key>framebuffer-con2-busid</key>
 				<data>
-				BAAAAA==
+				BgAAAA==
 				</data>
 				<key>framebuffer-con2-enable</key>
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-con2-flags</key>
+				<data>
+				xwMAAA==
+				</data>
 				<key>framebuffer-con2-index</key>
 				<data>
-				AgAAAA==
+				AwAAAA==
 				</data>
 				<key>framebuffer-con2-pipe</key>
 				<data>
-				EgAAAA==
+				CAAAAA==
 				</data>
 				<key>framebuffer-con2-type</key>
 				<data>
-				AAgAAA==
+				AAQAAA==
 				</data>
 				<key>framebuffer-con3-busid</key>
 				<data>
-				BgAAAA==
+				AAAAAA==
 				</data>
 				<key>framebuffer-con3-enable</key>
 				<data>
@@ -408,27 +416,47 @@
 				</data>
 				<key>framebuffer-con3-flags</key>
 				<data>
-				xwMAAA==
+				IAAAAA==
 				</data>
 				<key>framebuffer-con3-index</key>
 				<data>
-				AwAAAA==
+				/////w==
 				</data>
 				<key>framebuffer-con3-pipe</key>
 				<data>
-				EgAAAA==
+				AAAAAA==
 				</data>
 				<key>framebuffer-con3-type</key>
 				<data>
-				AAQAAA==
+				AQAAAA==
+				</data>
+				<key>framebuffer-fbmem</key>
+				<data>
+				AAAAAA==
+				</data>
+				<key>framebuffer-memorycount</key>
+				<data>
+				AwAAAA==
+				</data>
+				<key>framebuffer-mobile</key>
+				<data>
+				AAAAAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-pipecount</key>
+				<data>
+				AwAAAA==
+				</data>
 				<key>framebuffer-portcount</key>
 				<data>
-				BAAAAA==
+				AwAAAA==
+				</data>
+				<key>framebuffer-stolenmem</key>
+				<data>
+				AACQAw==
 				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>
@@ -481,7 +509,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
@@ -564,7 +592,7 @@
 				<key>Comment</key>
 				<string>USB port limit patch 10.14.x</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				AOCD+w8PhxYEAA==
@@ -584,7 +612,7 @@
 				<key>Comment</key>
 				<string>USB Port limit patch 10.14.x</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				AACD+w8Pg48EAAA=
@@ -604,7 +632,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 1 PMHear</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPDw==
@@ -624,7 +652,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 1 PMHear</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g+MP0w==
@@ -644,7 +672,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 1 PMHear</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPDw==
@@ -664,7 +692,7 @@
 				<key>Comment</key>
 				<string>USB Port Limit Patch 1 PMHear</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/8PDw==
@@ -688,12 +716,6 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x3</string>
-		<key>MLB</key>
-		<string>C02728300GUJG36CB</string>
-		<key>ROM</key>
-		<data>
-		Kvv6flmG
-		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -708,7 +730,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02728300GUJG36CB</string>
+		<string>C02715405GUF9H1UE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -735,17 +757,11 @@
 		<string>0xFFFF</string>
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
-		<key>SerialNumber</key>
-		<string>C02V2WZMHX87</string>
-		<key>SmUUID</key>
-		<string>9E171FDA-AA0B-4D2B-900E-3C9B987E5986</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>2B972A40-0624-4751-B430-2DD10EFC03D3</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
