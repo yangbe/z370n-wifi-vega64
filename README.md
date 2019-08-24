@@ -54,7 +54,8 @@
 
 我用的是XFX Vega64（公版），风冷的Vega64基本上都有风扇暴走和温度的问题，降压调频调Powertable会解决问题，但是LED灯的问题仍然没有解决
 
-## 4K屏幕下开机苹果Logo扁平问题，请阅读[更新显卡GOP](https://www.amder.club/thread-962-1-1.html)，或者联系我提供已修改的GOP文件
+## 4K屏幕下开机苹果Logo扁平问题
+请阅读[更新显卡GOP](https://www.amder.club/thread-962-1-1.html)，或者联系我提供已修改的GOP文件
 
 ## Vega64参数调整
 
