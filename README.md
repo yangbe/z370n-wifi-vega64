@@ -2,6 +2,9 @@
 
 ![125710pabvb4hvpv4807ey](https://user-images.githubusercontent.com/9880101/70448149-e8d9c500-1ada-11ea-8ea5-7a9769028a36.jpg)
 
+# 系统版本
+10.15.2 (19C57)
+
 
 # Bios设置
 Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基本一样，还是不建议升到F12。下面的Bios设置，除了USB的要注意，其它的并没有多大影响。
@@ -84,9 +87,10 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 
 ## 加载Vega64的补丁
 
-> **方式一：使用VGTab可以自动生成Kext，放在/CLOVER/Kexts/Other/下**（问题：即使在Force to Patch强制加载，有时会加载不了，但通常重启一下就可以解决）
+> ~ **方式一：使用VGTab可以自动生成Kext，放在/CLOVER/Kexts/Other/下** ~
+~（问题：即使在Force to Patch强制加载，有时会加载不了，但通常重启一下就可以解决）~
 >
->/CLOVER/kexts/Other/**Vega64.kext**, 是我自己调试过的kext补丁，直接放在这个文件夹即可
+>~ /CLOVER/kexts/Other/**Vega64.kext**, 是我自己调试过的kext补丁，直接放在这个文件夹即可 ~
 
 >**方式二：在config → Devices → Properties** 
 具体请看文件设置的参数（现在用的是这种方法）
@@ -104,13 +108,11 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 
 # USB
 
-有时间再补充，方法有3:
+使用Hackintool定制需要工作的USB口，生成USBpower.kext、 SSDT-EC.aml 、 SSDT-UIAC.aml
 
-1.解除15端口限制（config文件有设置好的，支持到 10.4.5）
+- SSDT-EC.aml 、 SSDT-UIAC.aml要放在Clover/ACPI/patched 
+- USBpower.kext放在Clover/Kexts/Other
 
-2.Hackintool生成USBpower.kext
-
-3.SSDT（单独放在EFI/USB-SSDT补丁, 实际使用是要放在Clover/ACPI/patched ，不建议跟**方法1**一起用）
 
 SSDT的定制参考以下的图表，不要超过15个端口即可
 
