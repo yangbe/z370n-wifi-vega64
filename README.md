@@ -87,11 +87,11 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 
 ## 加载Vega64的补丁
 
-~~ **方式一** ~~
+~~**方式一**~~
 
-~~ 使用VGTab可以自动生成Kext，放在/CLOVER/Kexts/Other/下,（问题：即使在Force to Patch强制加载，有时会加载不了，但通常重启一下就可以解决）~~
+~~使用VGTab可以自动生成Kext，放在/CLOVER/Kexts/Other/下,（问题：即使在Force to Patch强制加载，有时会加载不了，但通常重启一下就可以解决）~~
 
-~~ /CLOVER/kexts/Other/**Vega64.kext**, 是我自己调试过的kext补丁，直接放在这个文件夹即可 ~~
+~~/CLOVER/kexts/Other/**Vega64.kext**, 是我自己调试过的kext补丁，直接放在这个文件夹即可~~
 
 **方式二：**
 
