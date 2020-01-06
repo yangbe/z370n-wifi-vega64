@@ -9,7 +9,14 @@
 # Bios设置
 Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基本一样，还是不建议升到F12。下面的Bios设置，除了USB的要注意，其它的并没有多大影响。
 
-关于Bios升级到F12，请阅读[解锁CFG Lock](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/post-1934546)。或者[阅读有关CFG Lock更详细的解锁方法](http://www.misonsky.cn/115.html)。
+- 关于Bios升级到F12
+    请阅读[解锁CFG Lock](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/post-1934546)。或者[阅读有关CFG Lock更详细的解锁方法](http://www.misonsky.cn/115.html)。
+
+- Bios低于12
+    请一定要把红框中的这项勾上
+    ![Kernel](https://user-images.githubusercontent.com/9880101/71801040-b51b9c00-3094-11ea-85a7-83ddff7b21f1.png)
+
+
 
 
 
