@@ -125,7 +125,7 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 - USBpower.kext放在Clover/Kexts/Other
 
 
-SSDT的定制参考以下的图表，不要超过15个端口即可
+SSDT的定制参考以下的图表，不要超过15个端口即可。**注意：** 我的端口禁用了P3、P4的USB2和USB3。
 
 |端口编号|Buffer编号|主板位置|USB协议|
 |:------|:----|:----|:----:|
@@ -149,3 +149,6 @@ SSDT的定制参考以下的图表，不要超过15个端口即可
 |SS06|0x16|P4|USB3|
 |SS03|0x13|P5|USB3|
 |SS04|0x14|P6|USB3|
+
+![2017092910455670-usb](https://user-images.githubusercontent.com/9880101/71963062-cea81980-3235-11ea-9b5e-4739fe6b3d9d.png)
+
