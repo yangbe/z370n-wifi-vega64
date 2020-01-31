@@ -57,10 +57,11 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 >2.Chipset → Integrated Graphics : Enabled
 >
 >3.Chipset → DVMT Pre-Allocated :128M
-
-解决UHD630核显双屏显示问题
-在**config → Devices → Properties** 已添加了相关的补丁
-参考：https://www.tonymacx86.com/threads/guide-general-framebuffer-patching-guide-hdmi-black-screen-problem.269149/
+>
+> **解决UHD630核显双屏显示问题**
+>
+> 在**config → Devices → Properties** 已添加了相关的补丁
+> 参考：https://www.tonymacx86.com/threads/guide-general-framebuffer-patching-guide-hdmi-black-screen-problem.269149/
 
 # 使用Vega64
 >先在Bios按如下设置:
@@ -68,9 +69,11 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 >1.Peripherals → Initial Display Output : PCIE
 >
 >2.Chipset → Integrated Graphics : Disabled(Disabled后只能使用独显。不建议同时开启核显，避免产生其它问题)
-
-我用的是XFX Vega64（公版），风冷的Vega64基本上都有风扇暴走和温度的问题，降压调频调Powertable会解决问题，但是LED灯的问题仍然没有解决
-
+>
+><br>
+>
+>**我用的是XFX Vega64（公版），风冷的Vega64基本上都有风扇暴走和温度的问题，降压调频调Powertable会解决问题，~~但是LED灯的问题仍然没有解决~~**
+>
 > ## 4K屏幕下开机苹果Logo扁平问题
 >
 >请阅读[更新显卡GOP](https://www.amder.club/thread-962-1-1.html)，或者联系我提供已修改的GOP文件
@@ -81,8 +84,9 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 >
 >**使用[VGTab](https://www.tonymacx86.com/threads/tool-vgtab-control-your-vega-in-macos-without-flashing-the-vbios.268965/)调整Vega64的问题**
 >
-
-对于A卡，降压调频通常可以提升性能，参数调整可参考如下：
+><br>
+>
+> **对于A卡，降压调频通常可以提升性能，参数调整可参考如下：**
 >
 > - **Core Frequency**
 [核心频率](https://user-images.githubusercontent.com/9880101/56672127-6d143f00-66e8-11e9-88dd-3ebc1072ff52.png)
@@ -110,6 +114,7 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 >**方式二：**
 >
 >**在config → Devices → Properties**添加显卡参数
+>
 >具体请看文件设置的参数（现在用的是这种方法）
 >- 添加独显的识别地址，手动添加相关参数.
 >- 或者可以使用[**VGTabMerge**](https://github.com/corpnewt/VGTabMerge)自动合并到config中。
