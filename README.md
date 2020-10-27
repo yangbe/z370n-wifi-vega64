@@ -128,8 +128,19 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 >[OpenCL](https://user-images.githubusercontent.com/9880101/56673816-91254f80-66eb-11e9-8613-a1f18767d557.png)
 
 
-# USB
+# 睡眠
+**ACPI** PluginType 勾选上，可以加载原生电源管理
+最好在Bios上也设置
 
+问题
+10.15.2开始，系统的Siri服务一直在监听着，导至系统在idle time的时候没有办法自动睡眠，白果也有同样的问题
+处理方法
+1. 先查看SIP是否开启，如果开启就要进入Recovery模式进行禁用
+2. 按照这个网址的方法在term上输入代码即可
+
+
+
+# USB
 > **使用Hackintool定制需要工作的USB口，生成USBpower.kext、 SSDT-EC.aml 、 SSDT-UIAC.aml**
 >
 >- SSDT-EC.aml 、 SSDT-UIAC.aml要放在Clover/ACPI/patched 
