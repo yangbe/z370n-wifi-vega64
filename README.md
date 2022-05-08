@@ -6,7 +6,7 @@ Monterey 12.3
 <br>
 
 # 引导
-OC 0.8
+OPENCORE 0.8
 
 <br>
 
