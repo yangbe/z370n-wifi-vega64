@@ -18,6 +18,7 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
     **主板Z370N-Wifi 解锁CFG Lock** 只需修改 'setup_var 0x5A4 0x0'，[参考tonymacx86](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/post-1934546)。
     
     **教程参考1：**https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#what-is-cfg-lock
+    
     **教程参考2：**https://mritd.com/2020/10/16/gigabyte-z370-aorus-gaming-5-disable-cfg-lock
 
 
