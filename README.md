@@ -155,7 +155,6 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 
 ![2017092910455670-usb](https://user-images.githubusercontent.com/9880101/71963062-cea81980-3235-11ea-9b5e-4739fe6b3d9d.png)
 
-<br>
 
 # 最后
 
