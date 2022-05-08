@@ -10,6 +10,18 @@ OC 0.8
 
 <br>
 
+# 配置清单
+> - 主板: 技嘉Z370N WiFi
+> - CPU: intel i9-9900KF
+> - 硬盘: 三星 980SSD 1T / 三星 960EVO 250G / 西数 SN750 500G
+> - 显卡：XFX Vega64 风冷
+> - 内存: 金士顿骇客神条 Predator DDR4 3000 16G x 2
+> - 网卡: BCM943602CDP + NGFF转换卡
+> - 散热器: 猫头鹰 NH-U12A
+> - 电源: 海盗船 SF600
+> - 机箱: 酷冷 NR200P
+
+
 # Bios版本
 Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基本一样。
 
