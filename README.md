@@ -124,8 +124,8 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 # USB
 > **使用Hackintool定制需要工作的USB口，生成 SSDT-EC.aml 、 SSDT-UIAC.aml、SSDT-EC-USBX** 。
 >
->- SSDT-EC.aml 、 SSDT-UIAC.aml、SSDT-EC-USBX要放在Clover/ACPI/patched 
->- USBPorts.kext放在Clover/Kexts/Other
+>- SSDT-EC.aml 、 SSDT-UIAC.aml、SSDT-EC-USBX要放在 OC/ACPI
+>- USBPorts.kext 放在 OC/Kexts
 >
 >
 **SSDT的定制参考以下的图表，不要超过15个端口即可。**注意：** 我的端口禁用了P3、P4的USB2和USB3。**
