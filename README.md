@@ -1,21 +1,19 @@
 # z370n-wifi-vega64
 
-
-![125710pabvb4hvpv4807ey](https://user-images.githubusercontent.com/9880101/70448149-e8d9c500-1ada-11ea-8ea5-7a9769028a36.jpg)
-
 # 系统版本
-11.6 (20G165)
+12.3
 
 # 引导
-CLOVER-5142
+OC 0.8
 
 
 # Bios版本
 Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基本一样。
 
-- 主板Bios升级到F12
+- 建议主板Bios升级到F12
 
     建议只升级到F12，因为超过F12的版本会限制CPU的性能，我的9900KF跑不上去。
+
     **主板Z370N-Wifi 解锁CFG Lock** 只需修改 'setup_var 0x5A4 0x0'，[参考tonymacx86](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/post-1934546)。
     
     **教程参考1：** https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#what-is-cfg-lock
@@ -23,12 +21,8 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
     **教程参考2：** https://mritd.com/2020/10/16/gigabyte-z370-aorus-gaming-5-disable-cfg-lock
 
 
-
-
 - Bios低于F12
-    请一定要把红框中的这项勾上
-
-    ![Kernel](https://user-images.githubusercontent.com/9880101/71801040-b51b9c00-3094-11ea-85a7-83ddff7b21f1.png)
+    我在OC上没配置过，具体不清楚，所以建议直接升到F12。
 
 
 
@@ -62,21 +56,8 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 >
 >12. Chipset → IOAPIC 24-119 Entries : Enabled
 
-# 使用核显
-先在Bios里按如下设置
+# 独立显卡 Vega64
 
->1.Peripherals → Initial Display Output : IGFX
->
->2.Chipset → Integrated Graphics : Enabled
->
->3.Chipset → DVMT Pre-Allocated :128M
->
-> **解决UHD630核显双屏显示问题**
->
-> 在**config → Devices → Properties** 已添加了相关的补丁
-> 参考：https://www.tonymacx86.com/threads/guide-general-framebuffer-patching-guide-hdmi-black-screen-problem.269149/
-
-# 使用Vega64
 >先在Bios按如下设置:
 >
 >1.Peripherals → Initial Display Output : PCIE
@@ -116,13 +97,14 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 > - **Fan风扇**
 [风扇转速和温度](https://user-images.githubusercontent.com/9880101/56673392-c7160400-66ea-11e9-839e-f4863dbc7fb5.png)
 >
+><br>
+>
 > ## 加载Vega64的补丁
 >
->   **在config → Devices → Properties**添加显卡参数
+>   在 **DeviceProperties** 添加显卡参数
 >
->具体请看文件设置的参数（现在用的是这种方法）
->- 添加独显的识别地址，手动添加相关参数.
->- 或者可以使用[**VGTabMerge**](https://github.com/corpnewt/VGTabMerge)自动合并到config中。
+>具体请看文件设置的参数
+>- 添加独显的识别地址，再手动添加相关参数。
 >
 >详细说明如何使用[**VGTab和VGTabMerge**](https://www.tonymacx86.com/threads/guide-injection-of-amd-vega-power-and-fan-control-properties.267519/)
 >
@@ -132,12 +114,12 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 
 
 # 睡眠
-**ACPI** PluginType 勾选上，可以加载原生电源管理。睡眠基本上没有什么问题。
+暂无问题
 
 
 
 # USB
-> **使用Hackintool定制需要工作的USB口，生成USBpower.kext、 SSDT-EC.aml 、 SSDT-UIAC.aml**
+> **使用Hackintool定制需要工作的USB口，生成 SSDT-EC.aml 、 SSDT-UIAC.aml、SSDT-EC-USBX**
 >
 >- SSDT-EC.aml 、 SSDT-UIAC.aml、SSDT-EC-USBX要放在Clover/ACPI/patched 
 >- USBPorts.kext放在Clover/Kexts/Other
@@ -170,3 +152,6 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 
 ![2017092910455670-usb](https://user-images.githubusercontent.com/9880101/71963062-cea81980-3235-11ea-9b5e-4739fe6b3d9d.png)
 
+# 最后
+
+![125710pabvb4hvpv4807ey](https://user-images.githubusercontent.com/9880101/70448149-e8d9c500-1ada-11ea-8ea5-7a9769028a36.jpg)
