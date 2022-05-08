@@ -1,11 +1,14 @@
 # z370n-wifi-vega64
 
 # 系统版本
-12.3
+Monterey 12.3
+
+<br>
 
 # 引导
 OC 0.8
 
+<br>
 
 # Bios版本
 Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基本一样。
@@ -22,9 +25,10 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 
 
 - Bios低于F12
+    
     我在OC上没配置过，具体不清楚，所以建议直接升到F12。
 
-
+<br>
 
 # Bios设置
 
@@ -56,16 +60,18 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 >
 >12. Chipset → IOAPIC 24-119 Entries : Enabled
 
+<br>
+
 # 独立显卡 Vega64
 
 >先在Bios按如下设置:
 >
 >1.Peripherals → Initial Display Output : PCIE
 >
->2.Chipset → Integrated Graphics : Disabled(Disabled后只能使用独显。不建议同时开启核显，避免产生其它问题)
+>2.Chipset → Integrated Graphics : Disabled (Disabled后只能使用独显。不建议同时开启核显，避免产生其它问题)
 >
 ><br>
->>
+>
 > ## 4K屏幕下开机苹果Logo扁平问题
 >
 >请阅读[更新显卡GOP](https://www.amder.club/thread-962-1-1.html)，或者联系我提供已修改的GOP文件
@@ -78,7 +84,6 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 >
 >**使用[VGTab](https://www.tonymacx86.com/threads/tool-vgtab-control-your-vega-in-macos-without-flashing-the-vbios.268965/)调整Vega64的问题**
 >
-><br>
 >
 > **对于A卡，降压调频通常可以提升性能，参数调整可参考如下：**
 >
@@ -97,7 +102,6 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 > - **Fan风扇**
 [风扇转速和温度](https://user-images.githubusercontent.com/9880101/56673392-c7160400-66ea-11e9-839e-f4863dbc7fb5.png)
 >
-><br>
 >
 > ## 加载Vega64的补丁
 >
@@ -112,11 +116,12 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 >[Luxmark](https://user-images.githubusercontent.com/9880101/56673621-2c69f500-66eb-11e9-8387-d234d73bec1d.png)
 >[OpenCL](https://user-images.githubusercontent.com/9880101/56673816-91254f80-66eb-11e9-8613-a1f18767d557.png)
 
+<br>
 
 # 睡眠
 暂无问题
 
-
+<br>
 
 # USB
 > **使用Hackintool定制需要工作的USB口，生成 SSDT-EC.aml 、 SSDT-UIAC.aml、SSDT-EC-USBX**
@@ -151,6 +156,8 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 |SS04|0x14|P6|USB3| ✓ |
 
 ![2017092910455670-usb](https://user-images.githubusercontent.com/9880101/71963062-cea81980-3235-11ea-9b5e-4739fe6b3d9d.png)
+
+<br>
 
 # 最后
 
