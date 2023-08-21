@@ -90,7 +90,7 @@ Bios已经升到F12，除了要解锁CFG LOck，其它与之前用的F3 ~F10基�
 >
 > ## 4K屏幕下开机苹果Logo扁平问题
 >
->请阅读[更新显卡GOP](https://www.amder.club/thread-962-1-1.html)，或者联系我提供已修改的GOP文件
+>请阅读[更新显卡GOP]([https://www.amder.club/thread-962-1-1.html](https://bbs.nga.cn/read.php?tid=18600640&page=1&forder_by=postdatedesc&rand=474))，或者联系我提供已修改的GOP文件
 >
 > ## Vega64参数调整
 >
